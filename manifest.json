@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "HTML scan",
+    "version": "0.1",
+    "permissions": ["tabs"],
+    "web_accessible_resources": [
+        {
+            "resources": ["/css/*", "/assets/*"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": ["css/page.css"],
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "View HTML structure",
+        "default_icon": {
+            "16": "assets/ext-icon-24.png",
+            "24": "assets/ext-icon-24.png",
+            "32": "assets/ext-icon-24.png",
+            "48": "assets/ext-icon-48.png",
+            "128": "assets/ext-icon-48.png"
+        }
+    },
+    "icons": {
+        "16": "assets/ext-icon-24.png",
+        "24": "assets/ext-icon-24.png",
+        "32": "assets/ext-icon-24.png",
+        "48": "assets/ext-icon-48.png",
+        "128": "assets/ext-icon-48.png"
+    }
+}

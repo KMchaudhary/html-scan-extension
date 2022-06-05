@@ -1,0 +1,23 @@
+#info-container-html-scan {
+    display: inline-block;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* left: 0; */
+    max-height: 48px;
+    background-color: #444;
+    color: #f2f2f2;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0.5rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.html-scan-span {
+    color: rgb(70, 132, 255);
+    margin-left: 1rem;
+    outline: none;
+    font-family: sans-serif;
+}

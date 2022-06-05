@@ -1,0 +1,30 @@
+/* .html-scan {
+    outline: 1px solid #1f80d5;
+}
+
+.html-scan:hover {
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%);
+    background-color: rgba(255,255,255,.30);
+} */
+
+* {
+    outline: 1px solid #1f80d5;
+}
+
+article, nav, div, h1, h2, h3, h4, h5, h6 {
+    outline: 1px solid #1f80d5;
+}
+
+p {
+    outline: 1px solid brown;
+}
+
+span, b, i {
+    outline: 1px solid tomato;
+}
+
+
+*:hover {
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%);
+    background-color: rgba(255,255,255,.30);
+}
